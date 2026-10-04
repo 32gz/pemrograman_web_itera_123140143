@@ -79,25 +79,25 @@ Klik dua kali `index.html` agar terbuka di browser (Chrome, Edge, atau Firefox).
 
 ![Tampilan form input utama](screenshots/01-form-input.png)
 
-_Keterangan: tambahkan penjelasan singkat di sini._
+_Keterangan: Tampilan awal aplikasi saat pertama kali dibuka. Di sisi kiri ada form Tambah barang dengan tiga isian: nama barang, harga satuan, dan jumlah, lengkap dengan petunjuk batas minimal pada tiap kolom. Di sisi kanan, tabel keranjang masih kosong dan total belanja, diskon, serta total akhir bernilai Rp 0._
 
 ### 2. Tampilan saat validasi error muncul
 
 ![Tampilan validasi error](screenshots/02-validasi-error.png)
 
-_Keterangan: tambahkan penjelasan singkat di sini._
+_Keterangan: Tombol Tambah ke keranjang ditekan saat semua kolom masih kosong. Aplikasi menampilkan pesan error berwarna merah di bawah setiap input yang salah ("Nama barang wajib diisi.", "Harga satuan wajib diisi dengan angka.", dan "Jumlah wajib diisi."), dan garis tepi kolomnya ikut berubah merah. Barang tidak masuk ke keranjang, terlihat dari tabel di kanan yang tetap kosong._
 
 ### 3. Tampilan hasil perhitungan dan tabel keranjang
 
 ![Tampilan hasil perhitungan dan tabel keranjang](screenshots/03-hasil-perhitungan.png)
 
-_Keterangan: tambahkan penjelasan singkat di sini._
+_Keterangan: Contoh transaksi kecil: Pulpen seharga Rp 2.500 dengan jumlah 3, sehingga subtotal Rp 7.500. Karena total belanja belum mencapai Rp 50.000, diskon diberikan lewat kode promo HEMAT10 sebesar 10% (Rp 750), sehingga total akhir menjadi Rp 6.750. Saat uang bayar diisi Rp 10.000, kembalian langsung dihitung otomatis, yaitu Rp 3.250._
 
-### 4. (Opsional) Tampilan uang kurang atau kembalian
+### 4. Tampilan diskon otomatis untuk belanja Rp 50.000
 
 ![Tampilan pembayaran dan kembalian](screenshots/04-pembayaran.png)
 
-_Keterangan: tambahkan penjelasan singkat di sini._
+_Keterangan: Contoh belanja Sepatu seharga Rp 50.000 dengan jumlah 1, sehingga total belanja tepat Rp 50.000. Karena sudah mencapai batas minimal, aplikasi langsung memberi diskon 10% secara otomatis tanpa kode promo, sebesar Rp 5.000. Keterangannya tampil sebagai "Diskon 10% (belanja ≥ Rp 50.000)", dan total akhir yang harus dibayar menjadi Rp 45.000._
 
 ## Penjelasan Teknis Singkat
 
