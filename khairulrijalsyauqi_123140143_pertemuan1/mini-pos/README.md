@@ -32,7 +32,7 @@ mini-pos/
 ├── style.css
 ├── script.js
 ├── README.md
-└── screenshots/        <- taruh tangkapan layar di sini
+└── screenshots/       
 ```
 
 ### Opsi 1: Live Server di VS Code (disarankan)
@@ -74,7 +74,6 @@ Klik dua kali `index.html` agar terbuka di browser (Chrome, Edge, atau Firefox).
 
 ## Tangkapan Layar
 
-> Simpan gambar di folder `screenshots/` dengan nama seperti di bawah, atau sesuaikan nama dan path-nya.
 
 ### 1. Tampilan form input utama
 
@@ -136,9 +135,3 @@ Data disimpan dengan kunci `miniPosKeranjang` dalam bentuk objek:
 - **Simpan:** `simpan()` memanggil `localStorage.setItem(KEY, JSON.stringify(...))` setiap kali keranjang atau status promo berubah (tambah, hapus, atau pakai promo).
 - **Muat:** saat halaman dibuka, `muat()` membaca `localStorage.getItem(KEY)`, mengubahnya dengan `JSON.parse()`, lalu menyaring data yang tidak valid sebelum dipakai. Blok `try/catch` mencegah aplikasi error jika data rusak.
 - **Reset:** tombol **Transaksi baru** mengosongkan array, memanggil `localStorage.removeItem(KEY)`, lalu menggambar ulang tampilan.
-
-## Teknologi
-
-- HTML5
-- CSS3 (CSS variables, grid, dukungan mode terang/gelap)
-- JavaScript (ES5+), `localStorage` API
