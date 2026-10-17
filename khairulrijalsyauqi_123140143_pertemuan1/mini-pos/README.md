@@ -35,7 +35,7 @@ mini-pos/
 └── screenshots/       
 ```
 
-### Opsi 1: Live Server di VS Code (disarankan)
+### Opsi 1: Live Server di VS Code
 
 1. Buka folder `mini-pos` di **Visual Studio Code**.
 2. Pasang ekstensi **Live Server** (pembuat: Ritwick Dey) dari menu Extensions.
