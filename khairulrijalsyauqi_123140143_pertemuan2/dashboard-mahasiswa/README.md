@@ -46,15 +46,15 @@ Jika API tidak dapat dimuat, aplikasi tetap berjalan dengan data cadangan lokal.
 
 ### Tampilan utama
 
-![Tampilan utama](screenshots/tampilan-utama.png)
+![Tampilan utama](Screenshot/tampilan-utama.png)
 
 ### Tambah dan ubah tugas
 
-![Tambah dan ubah tugas](screenshots/tambah-ubah-tugas.png)
+![Tambah dan ubah tugas](Screenshot/tambah-ubah-tugas.png)
 
 ### Filter dan label tenggat
 
-![Filter dan label tenggat](screenshots/filter-tenggat.png)
+![Filter dan label tenggat](Screenshot/filter-tenggat.png)
 
 
 ---
