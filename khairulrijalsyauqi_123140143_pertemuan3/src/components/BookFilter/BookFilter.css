@@ -1,0 +1,11 @@
+.book-filter { margin-bottom: 16px; }
+.book-filter .field input {
+  padding: 8px 10px; border: 1px solid var(--line); border-radius: var(--radius);
+}
+.filter-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab {
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: 6px 14px; border-radius: 999px; cursor: pointer;
+}
+.tab:hover { border-color: var(--accent); }
+.tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }

@@ -1,0 +1,4 @@
+.app { min-height: 100vh; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px 20px 64px; }
+.empty { text-align: center; padding: 48px 16px; color: var(--muted); }
+.empty h2 { color: var(--ink); }

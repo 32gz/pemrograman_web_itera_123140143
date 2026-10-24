@@ -1,0 +1,8 @@
+.stats-total { color: var(--muted); }
+.stats-list { padding: 0; list-style: none; display: grid; gap: 16px; max-width: 560px; }
+.stats-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.bar { background: var(--line); border-radius: 999px; height: 12px; overflow: hidden; }
+.bar-fill { height: 100%; transition: width .3s; }
+.fill-milik { background: var(--milik); }
+.fill-baca { background: var(--baca); }
+.fill-beli { background: var(--beli); }
