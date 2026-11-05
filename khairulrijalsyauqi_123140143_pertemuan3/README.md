@@ -1,6 +1,6 @@
-# Rak Bukuku — Aplikasi Manajemen Buku Pribadi
+# Rak Bukuku - Aplikasi Manajemen Buku Pribadi
 
-> Tugas Pertemuan 3 — Pemrograman Web (React)
+> Tugas Pertemuan 3 - Pemrograman Web (React)
 > **Nama:** Khairul Rijal Syauqi | **NIM:** 123140143
 
 ## Deskripsi Aplikasi
