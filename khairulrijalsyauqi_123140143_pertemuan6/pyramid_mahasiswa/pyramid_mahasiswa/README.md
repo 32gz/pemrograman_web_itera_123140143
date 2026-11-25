@@ -112,9 +112,7 @@ Server akan berjalan pada alamat `http://localhost:6543`.
 
 ---
 
-## Bukti Pengujian Endpoint (cURL / Postman)
-
-> Simpan gambar hasil tangkapan layar ke folder `screenshots/` (atau sesuaikan path gambar di bawah ini).
+## Bukti Pengujian Endpoint cURL
 
 ### A. Endpoint Mahasiswa
 
